@@ -27,3 +27,27 @@ Il programma mostra a video i numeri pari compresi tra 0 e 100 in ordine decresc
 
 ### ex06
 Il programma prende una sequenza di lunghezza ignota a priori di numeri interi positivi. Il programma, a partire dal primo numero introdotto, stampa ogni volta la media di tutti i numeri introdotti. Terminare quando il numero inserito è negativo.
+
+## day02
+
+### bonus00
+
+L'utente inserisce un numero, maggiore o uguale a 2, e il programma stampa a schermo se il numero inserito è primo o meno. Se il numero è minore di 2, il programma stampa un messaggio di scherno nei confronti dell'utente.
+
+### bonus01
+
+Stampa a schermo tutte le possibili coppie di due cifre (0-9), **senza ripetizioni**.
+
+Esempio:
+
+```
+00
+01
+02
+...
+09
+11
+...
+```
+
+Nota come nella sequenza venga saltato `10`.
