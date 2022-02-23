@@ -84,3 +84,28 @@ Esempio:
 ```
 
 Nota come nella sequenza venga saltato `10`.
+
+## workgroup00
+
+Crea un programma che una volta avviato riceverà in input un numero, seguito da un segno (+, -, /, *, %) e da un ultimo numero. Una volta inseriti i dati il programma restituirà in output il risultato del calcolo. Fai attenzione a controllare che le operazioni ricevute siano valide.
+
+Esempio:
+
+```
+5 + 5
+10
+```
+```
+10 * 5
+50
+```
+```
+7 / 0
+ERRORE
+```
+```
+10 y 7
+ERRORE
+```
+
+
