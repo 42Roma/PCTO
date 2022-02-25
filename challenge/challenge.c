@@ -104,16 +104,13 @@ void move_pixel(int from_x, int from_y, int to_x, int to_y)
 
 int main()
 {
-	const int size_x = 9;
-	const int size_y = 9;
+	const int size_x = 7;
+	const int size_y = 8;
 
 	init_canvas(size_x, size_y);
 
 	// modifica da qui
-	for (int i = 0; i < size_x; i++)
-		for (int y = 0; y < size_y; y++)
-			if (i == y || i == size_y - y - 1)
-				put_pixel(i, y);
+	put_pixel(2, 4);
 	// a qui
 
 	print_canvas();
