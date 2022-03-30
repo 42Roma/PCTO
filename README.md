@@ -108,4 +108,70 @@ ERRORE
 ERRORE
 ```
 
+##FIZZBUZZ
+
+Crea un programma che stampa tutti i numeri da 1 a 100:
+-Qualora il numero fosse divisibuile per 3 il programma stampa fizz al posto del numero;
+-Qualora il numero fosse divisibile per 5, il programma stampa buzz al posto del numero;
+-Qualora il numero fosse dibisibile sia per 3 che per 5, il programma stampa fizzbuzz al posto del numero.
+```
+1
+2
+fizz
+4
+buzz
+fizz
+7
+8
+fizz
+...
+13
+14
+fizzbuzz
+...
+```
+
+
+##CHAR00
+
+Crea un programma che stampi l'alfabeto (E' obbligatorio utilizzare la tabella ASCII);
+
+#CHAR01
+
+Crea un programma che stampi l'alfabeto al contrario (E' obbligatorio utilizzare la tabella ASCII);
+
+#STRING00
+
+Crea un programma che, una volta inserita una frase la stampa al contrario:
+```
+Inserisci una frase: Ciao a tutti!!!
+!!!ittu a oaiC
+```
+
+##STRING01
+
+Crea un programma che prende in input una frase e stampi a schermo la prima parola in quella frase:
+```
+Inserisci una frase: Ciao a tutti!!!
+Ciao
+```
+
+##STRING02
+
+Crea un programma che prende due argomenti, il primo è una frase, il secondo è un carattere. Il programma conterà la ricorrenza del carattere inserito all'interno della frase inserita.
+
+```
+Inserisci una frase: Benvenuto al PCTO Coding & Problem Solving
+Inserisci una lettera: e
+La lettera e appare 3 volte
+```
+```
+Inserisci una frase: Che noia il coding
+Inserisci una lettera: C
+La lettera C appare 1 volte
+```
+
+
+
+
 
