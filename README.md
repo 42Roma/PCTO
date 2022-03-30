@@ -111,7 +111,7 @@ ERRORE
 ## FIZZBUZZ
 
 Crea un programma che stampa tutti i numeri da 1 a 100:
--Qualora il numero fosse divisibuile per 3 il programma stampa fizz al posto del numero;
+-Qualora il numero fosse divisibile per 3, il programma stampa fizz al posto del numero;
 -Qualora il numero fosse divisibile per 5, il programma stampa buzz al posto del numero;
 -Qualora il numero fosse dibisibile sia per 3 che per 5, il programma stampa fizzbuzz al posto del numero.
 ```
@@ -145,12 +145,12 @@ Crea un programma che stampi l'alfabeto al contrario (E' obbligatorio utilizzare
 Crea un programma che, una volta inserita una frase la stampa al contrario:
 ```
 Inserisci una frase: Ciao a tutti!!!
-!!!ittu a oaiC
+!!!ittut a oaiC
 ```
 
 ## STRING01
 
-Crea un programma che prende in input una frase e stampi a schermo la prima parola in quella frase:
+Crea un programma che prende in input una frase e stampa a schermo la prima parola in quella frase:
 ```
 Inserisci una frase: Ciao a tutti!!!
 Ciao
