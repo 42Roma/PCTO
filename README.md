@@ -108,7 +108,7 @@ ERRORE
 ERRORE
 ```
 
-##FIZZBUZZ
+## FIZZBUZZ
 
 Crea un programma che stampa tutti i numeri da 1 a 100:
 -Qualora il numero fosse divisibuile per 3 il programma stampa fizz al posto del numero;
@@ -132,15 +132,15 @@ fizzbuzz
 ```
 
 
-##CHAR00
+## CHAR00
 
 Crea un programma che stampi l'alfabeto (E' obbligatorio utilizzare la tabella ASCII);
 
-#CHAR01
+## CHAR01
 
 Crea un programma che stampi l'alfabeto al contrario (E' obbligatorio utilizzare la tabella ASCII);
 
-#STRING00
+## STRING00
 
 Crea un programma che, una volta inserita una frase la stampa al contrario:
 ```
@@ -148,7 +148,7 @@ Inserisci una frase: Ciao a tutti!!!
 !!!ittu a oaiC
 ```
 
-##STRING01
+## STRING01
 
 Crea un programma che prende in input una frase e stampi a schermo la prima parola in quella frase:
 ```
@@ -156,7 +156,7 @@ Inserisci una frase: Ciao a tutti!!!
 Ciao
 ```
 
-##STRING02
+## STRING02
 
 Crea un programma che prende due argomenti, il primo è una frase, il secondo è un carattere. Il programma conterà la ricorrenza del carattere inserito all'interno della frase inserita.
 
