@@ -25,6 +25,8 @@ Inserisci temperatura in Celsius: -283.9
 Errore: temperatura non valida!
 ```
 
+**Bonus**: Se la temperatura è minore di 15 ºC, il programma stampa `Fa freddo!`. Altrimenti se è compreso tra 15 e 25 ºC inclusi, il programma stampa `Si sta bene!`. Altrimenti stampa `Fa caldo!`.
+
 ## ex03
 
 L'utente inserisce tre numeri e il programma stampa se sono in [progressione aritmetica](https://www.google.com/search?q=progressione+aritmetica).
