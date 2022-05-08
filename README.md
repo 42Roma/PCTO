@@ -78,6 +78,8 @@ media: 9.33
 > -42
 ```
 
+**Bonus**: Se l'utente inserisce `-42`, il programma resetta la media e stampa `La media è stata resettata!` invece di stampare la media.
+
 ## bonus00
 
 L'utente inserisce un numero. Se è maggiore o uguale a 2, il programma stampa se il numero inserito è primo o non primo. Altrimenti il programma stampa un messaggio di scherno nei confronti dell'utente.
