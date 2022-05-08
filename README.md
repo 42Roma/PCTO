@@ -2,7 +2,7 @@
 
 ## ex00
 
-L'utente inserisce la propria età e il programma stampa se l'utente è maggiorenne o minorenne.
+L'utente inserisce un'età e il programma stampa se l'utente è maggiorenne o minorenne.
 
 ## ex01
 
@@ -134,9 +134,11 @@ ERRORE
 ## fizzbuzz
 
 Crea un programma che stampa tutti i numeri da 1 a 100:
--Qualora il numero fosse divisibile per 3, il programma stampa fizz al posto del numero;
--Qualora il numero fosse divisibile per 5, il programma stampa buzz al posto del numero;
--Qualora il numero fosse dibisibile sia per 3 che per 5, il programma stampa fizzbuzz al posto del numero.
+
+- Se il numero è divisibile per 3, il programma stampa `fizz` al posto del numero;
+- Se il numero è divisibile per 5, il programma stampa `buzz` al posto del numero;
+- Se il numero è dibisibile sia per 3 che per 5, il programma stampa `fizzbuzz` al posto del numero.
+
 ```
 1
 2
@@ -154,7 +156,6 @@ fizzbuzz
 ...
 ```
 
-
 ## char00
 
 Crea un programma che stampi l'alfabeto (E' obbligatorio utilizzare la tabella ASCII);
@@ -166,6 +167,7 @@ Crea un programma che stampi l'alfabeto al contrario (E' obbligatorio utilizzare
 ## string00
 
 Crea un programma che, una volta inserita una frase la stampa al contrario:
+
 ```
 Inserisci una frase: Ciao a tutti!!!
 !!!ittut a oaiC
@@ -174,6 +176,7 @@ Inserisci una frase: Ciao a tutti!!!
 ## string01
 
 Crea un programma che prende in input una frase e stampa a schermo la prima parola in quella frase:
+
 ```
 Inserisci una frase: Ciao a tutti!!!
 Ciao
@@ -188,6 +191,7 @@ Inserisci una frase: Benvenuto al PCTO Coding & Problem Solving
 Inserisci una lettera: e
 La lettera e appare 3 volte
 ```
+
 ```
 Inserisci una frase: Che noia il coding
 Inserisci una lettera: C
