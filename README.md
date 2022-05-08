@@ -2,17 +2,13 @@
 
 ## ex00
 
-L'utente inserisce due numeri e il programma stampa se sono uguali.
+L'utente inserisce la propria età e il programma stampa se l'utente è maggiorenne o minorenne.
 
 ## ex01
 
-L'utente inserisce la propria età e il programma stampa se l'utente è maggiorenne o minorenne.
+L'utente inserisce due numeri e il programma stampa se il primo è multiplo del secondo.
 
 ## ex02
-
-Il programma legge due numeri e controlla se il primo è multiplo del secondo.
-
-## ex03
 
 L'utente inserisce una temperatura in Celsius. Se la temperatura inserita è minore dello _zero assoluto_ (-273.15 ºC), il programma segnala un errore. Atrimenti il programma converte la tempreratura in Fahrenheit ed in Kelvin e stampa i valori.
 
@@ -29,11 +25,11 @@ Inserisci temperatura in Celsius: -283.9
 Errore: temperatura non valida!
 ```
 
-## ex04
+## ex03
 
 L'utente inserisce tre numeri e il programma stampa se sono in [progressione aritmetica](https://www.google.com/search?q=progressione+aritmetica).
 
-## ex05
+## ex04
 
 L'utente inserisce un anno ed il programma verifica se l'anno inserito è [bisestile](https://www.google.com/search?q=anno+bisestile).
 
@@ -46,27 +42,27 @@ Qualche anno da testare:
 | 2001 | non bisestile |
 | 1900 | non bisestile |
 
+## ex05
+
+L'utente inserisce tre numeri e dice se possono essere le lunghezze dei lati di un triangolo (perché un triangolo possa essere tale la somma di ogni coppia lati deve essere maggiore dell'altro).
+
 ## ex06
-
-Il programma legge tre numeri e dice se possono essere le lunghezze dei lati di un triangolo (perché un triangolo possa essere tale la somma di ogni coppia lati deve essere maggiore dell'altro).
-
-## ex07
 
 L'utente inserisce tre lunghezze dei lati di un triangolo. Il programma stampa se il triangolo è scaleno, isoscele o equilatero.
 
-## ex08
+## ex07
 
 L'utente inserisce un anno e il programma stampa se è l'anno del primo [allunaggio](https://www.google.com/search?q=allunaggio) oppure quanti anni prima o quanti anni dopo.
 
-## ex09
+## ex08
 
 Il programma stampa tutti i numeri tra 20 e 50 compresi.
 
-## ex10
+## ex09
 
 Il programma stampa i numeri pari compresi tra 0 e 100 in ordine decrescente.
 
-## ex11
+## ex10
 
 L'utente inserisce un numero alla volta e il programma stampa la media di tutti i numeri inseriti fino a quel momento. Il programma si interrompe senza stampare la media quando il numero inserito è negativo.
 
