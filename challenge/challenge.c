@@ -42,7 +42,7 @@ void init_canvas(const int new_x_size, const int new_y_size)
 	memset(canvas.arr, EMPTY, new_x_size * new_y_size);
 }
 
-void print_canvas()
+void print_canvas(void)
 {
 	printf("\e[1;1H\e[2J"); // clear screen
 	printf("  ");
@@ -60,6 +60,11 @@ void print_canvas()
 		}
 		printf("\n");
 	}
+}
+
+void free_canvas(void)
+{
+	free(canvas.arr);
 }
 
 void check_pixel(int x, int y)
@@ -102,7 +107,7 @@ void move_pixel(int from_x, int from_y, int to_x, int to_y)
 	}
 }
 
-int main()
+int main(void)
 {
 	const int size_x = 7;
 	const int size_y = 8;
@@ -110,9 +115,11 @@ int main()
 	init_canvas(size_x, size_y);
 
 	// modifica da qui
-	put_pixel(2, 4);
+	put_pixel(1, 2);
+	put_pixel(3, 4);
 	// a qui
 
 	print_canvas();
+	free_canvas();
 	return 0;
 }

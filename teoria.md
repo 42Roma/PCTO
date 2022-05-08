@@ -10,17 +10,18 @@ directory | cartella
 
 ### Comandi della `shell`
 
-| comando                              | dall'inglese            | cosa fa                                                                                       |
-| ------------------------------------ | ----------------------- | --------------------------------------------------------------------------------------------- |
+| comando                              | dall'inglese            | cosa fa                                                                                                                                    |
+| ------------------------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | _Have a look around_                 |
-| `pwd`                                | Print Working Directory | Stampa la cartella attuale.                                                                   |
-| `ls`                                 | LiSt                    | Stampa la lista dei contenuti della cartella attuale. Vedi [Opzioni di `ls`](#opzioni-di-ls). |
-| `cd <cartella>`                      | Change Directory        | Cambia la cartella attuale. Vedi [File e cartelle speciali](#file-e-cartelle-speciali).       |
+| `pwd`                                | Print Working Directory | Stampa la cartella attuale.                                                                                                                |
+| `ls`                                 | LiSt                    | Stampa la lista dei contenuti della cartella attuale. Vedi [Opzioni di `ls`](#opzioni-di-ls).                                              |
+| `cd <cartella>`                      | Change Directory        | Cambia la cartella attuale. Vedi [File e cartelle speciali](#file-e-cartelle-speciali).                                                    |
 | _Add and manage your stuff_          |
-| `touch <file>`                       |                         | Crea un nuovo file vuoto.                                                                     |
-| `mkdir <cartella>`                   | MaKe DIRectory          | Crea una nuova cartella vuota.                                                                |
-| `mv <file/cartella> <file/cartella>` | MoVe                    | Può spostare o rinominare un file o una cartella. Vedi [Esempi `mv`](#esempi-mv).             |
-| `rm <file>`                          | ReMove                  | Elimina il file. **Non** passa dal cestino!                                                   |
+| `touch <file>`                       |                         | Crea un nuovo file vuoto.                                                                                                                  |
+| `mkdir <cartella>`                   | MaKe DIRectory          | Crea una nuova cartella vuota.                                                                                                             |
+| `mv <file/cartella> <file/cartella>` | MoVe                    | Può spostare o rinominare un file o una cartella. Vedi [Esempi `mv`](#esempi-mv).                                                          |
+| `cp <file/cartella> <file/cartella>` | CoPy                    | Può copiare un file o una cartella (con l'opzione `-r`, "ricorsivo"). Utilizza la stessa sintassi di `mv`. Vedi [Esempi `mv`](#esempi-mv). |
+| `rm <file>`                          | ReMove                  | Elimina il file. **Non** passa per il cestino!                                                                                             |
 
 ### File e cartelle speciali
 

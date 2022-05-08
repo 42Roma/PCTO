@@ -2,11 +2,11 @@
 
 ## ex00
 
-Il programma prende due numeri e controllare se il primo è maggiore del secondo.
+L'utente inserisce due numeri e il programma stampa se sono uguali.
 
 ## ex01
 
-L'utente inserisce la propria età e il programma dice se è maggiorenne (ovvero con età maggiore uguale a 18 anni).
+L'utente inserisce la propria età e il programma stampa se l'utente è maggiorenne o minorenne.
 
 ## ex02
 
@@ -14,30 +14,37 @@ Il programma legge due numeri e controlla se il primo è multiplo del secondo.
 
 ## ex03
 
-L'utente inserisce una temperatura in Celsius. Se la temperatura inserita è minore dello zero assoluto (-273,15 ºC), il programma segnala un errore. Atrimenti il programma converte la tempreratura in Fahrenheit ed in Kelvin e stampa i valori.
+L'utente inserisce una temperatura in Celsius. Se la temperatura inserita è minore dello _zero assoluto_ (-273.15 ºC), il programma segnala un errore. Atrimenti il programma converte la tempreratura in Fahrenheit ed in Kelvin e stampa i valori.
 
-> Ricorda che:
->
-> Fahrenheit = (9/5) · Celsius + 32
->
-> Kelvin = Celsius + 273,15
+Esempio:
+
+```
+Inserisci temperatura in Celsius: 22.5
+72.50 ºF
+295.65 K
+```
+
+```
+Inserisci temperatura in Celsius: -283.9
+Errore: temperatura non valida!
+```
 
 ## ex04
 
-Il programma letti tre numeri, determini se possono essere considerati in progressione aritmetica; una progressione aritmetica è una serie di numeri in cui la differenza tra due numeri successivi è costante.
+L'utente inserisce tre numeri e il programma stampa se sono in [progressione aritmetica](https://www.google.com/search?q=progressione+aritmetica).
 
 ## ex05
 
-L'utente inserisce un anno ed il programma verifica se l'anno inserito è bisestile.
+L'utente inserisce un anno ed il programma verifica se l'anno inserito è [bisestile](https://www.google.com/search?q=anno+bisestile).
 
-Un anno è bisestile se è divisibile per 4 ma non per 100, oppure se è divisibile per 400.
+Qualche anno da testare:
 
 |      |               |
-| ---- | ------------- |
-| 1900 | non bisestile |
-| 2001 | non bisestile |
+| :--: | ------------- |
 | 2000 | bisestile     |
 | 2004 | bisestile     |
+| 2001 | non bisestile |
+| 1900 | non bisestile |
 
 ## ex06
 
@@ -45,11 +52,11 @@ Il programma legge tre numeri e dice se possono essere le lunghezze dei lati di 
 
 ## ex07
 
-Il programma legge tre lunghezze dei lati di un triangolo e dice se il triangolo è scaleno, isoscele o equilatero.
+L'utente inserisce tre lunghezze dei lati di un triangolo. Il programma stampa se il triangolo è scaleno, isoscele o equilatero.
 
 ## ex08
 
-La prima volta che l'uomo è andato sulla Luna è stato il 1969, creare un programma che chiede l'anno di nascita all'utente e gli risponde se è nato l'anno in cui l'uomo è andato sulla Luna o quanti anni prima o quanti anni dopo.
+L'utente inserisce un anno e il programma stampa se è l'anno del primo [allunaggio](https://www.google.com/search?q=allunaggio) oppure quanti anni prima o quanti anni dopo.
 
 ## ex09
 
@@ -61,15 +68,27 @@ Il programma stampa i numeri pari compresi tra 0 e 100 in ordine decrescente.
 
 ## ex11
 
-Il programma prende una sequenza di lunghezza ignota a priori di numeri interi positivi. Il programma, a partire dal primo numero introdotto, stampa ogni volta la media di tutti i numeri introdotti. Terminare quando il numero inserito è negativo.
+L'utente inserisce un numero alla volta e il programma stampa la media di tutti i numeri inseriti fino a quel momento. Il programma si interrompe senza stampare la media quando il numero inserito è negativo.
+
+Esempio:
+
+```
+> 5
+media: 5.00
+> 15
+media: 10.00
+> 8
+media: 9.33
+> -42
+```
 
 ## bonus00
 
-L'utente inserisce un numero, maggiore o uguale a 2, e il programma stampa a schermo se il numero inserito è primo o meno. Se il numero è minore di 2, il programma stampa un messaggio di scherno nei confronti dell'utente.
+L'utente inserisce un numero. Se è maggiore o uguale a 2, il programma stampa se il numero inserito è primo o non primo. Altrimenti il programma stampa un messaggio di scherno nei confronti dell'utente.
 
 ## bonus01
 
-Stampa a schermo tutte le possibili coppie di due cifre (0-9), **senza ripetizioni**.
+Il programma stampa a schermo tutte le possibili coppie di due cifre decimali (0-9), **senza ripetizioni**.
 
 Esempio:
 
@@ -77,32 +96,38 @@ Esempio:
 00
 01
 02
-...
+…
 09
 11
-...
+…
+99
 ```
 
-Nota come nella sequenza venga saltato `10`.
+N.B.: nella sequenza viene saltata la combinazione `10`.
 
 ## workgroup00
 
-Crea un programma che una volta avviato riceverà in input un numero, seguito da un segno (+, -, /, *, %) e da un ultimo numero. Una volta inseriti i dati il programma restituirà in output il risultato del calcolo. Fai attenzione a controllare che le operazioni ricevute siano valide.
+L'utente inserisce un numero, seguito da un segno (`+`, `-`, `/`, `*`, `%`) e da un ultimo numero. Una volta inseriti i dati il programma stampa il risultato del calcolo.
+
+Fai attenzione a controllare che le operazioni ricevute siano valide.
 
 Esempio:
 
 ```
 5 + 5
-10
+= 10
 ```
+
 ```
 10 * 5
-50
+= 50
 ```
+
 ```
 7 / 0
 ERRORE
 ```
+
 ```
 10 y 7
 ERRORE
@@ -170,8 +195,3 @@ Inserisci una frase: Che noia il coding
 Inserisci una lettera: C
 La lettera C appare 1 volte
 ```
-
-
-
-
-
