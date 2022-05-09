@@ -58,13 +58,29 @@ L'utente inserisce un anno e il programma stampa se è l'anno del primo [allunag
 
 ## ex08
 
-Il programma stampa tutti i numeri tra 20 e 50 compresi.
+Il programma stampa tutti i numeri tra `20` e `50` compresi.
 
 ## ex09
 
-Il programma stampa i numeri pari compresi tra 0 e 100 in ordine decrescente.
+Il programma stampa i numeri pari compresi tra `0` e `100` in ordine decrescente.
 
 ## ex10
+
+L'utente inserisce un numero intero positivo e il programma stampa il [fattoriale](https://www.google.com/search?q=fattoriale) del numero.
+
+<!-- int/uint 12 -->
+
+## ex11
+
+L'utente inserisce un numero intero positivo e il programma stampa il valore della [serie di Fibonacci](https://www.google.com/search?q=fibonacci) nella posizione del numero inserito dall'utente.
+
+Esempio: L'utente inserisce `8` e il programma stampa `21`, l'ottavo numero della sequenza.
+
+**Bonus**: Stampa un grafico della progressione, fino alla posizione inserita, stampando un `=` ogni 5 unità.
+
+<!-- int/uint? 47 -->
+
+## ex12
 
 L'utente inserisce un numero alla volta e il programma stampa la media di tutti i numeri inseriti fino a quel momento. Il programma si interrompe senza stampare la media quando il numero inserito è negativo.
 
@@ -135,11 +151,10 @@ ERRORE
 
 ## fizzbuzz
 
-Crea un programma che stampa tutti i numeri da 1 a 100:
+Crea un programma che stampa tutti i numeri da 1 a 100, ma:
 
-- Se il numero è divisibile per 3, il programma stampa `fizz` al posto del numero;
-- Se il numero è divisibile per 5, il programma stampa `buzz` al posto del numero;
-- Se il numero è dibisibile sia per 3 che per 5, il programma stampa `fizzbuzz` al posto del numero.
+- se il numero è divisibile per 3, stampa `fizz` al posto del numero;
+- se il numero è divisibile per 5, stampa `buzz` al posto del numero.
 
 ```
 1
