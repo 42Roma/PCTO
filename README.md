@@ -66,37 +66,11 @@ Il programma stampa i numeri pari compresi tra `0` e `100` in ordine decrescente
 
 ## ex10
 
-L'utente inserisce un numero intero positivo e il programma stampa il [fattoriale](https://www.google.com/search?q=fattoriale) del numero.
+L'utente inserisce due numeri interi (base e esponente). Se l'esponente è negativo, il programma stampa la potenza. Altrimenti stampa errore.
+
+<!-- L'utente inserisce un numero intero positivo e il programma stampa il [fattoriale](https://www.google.com/search?q=fattoriale) del numero. -->
 
 <!-- int/uint 12 -->
-
-## ex11
-
-L'utente inserisce un numero intero positivo e il programma stampa il valore della [serie di Fibonacci](https://www.google.com/search?q=fibonacci) nella posizione del numero inserito dall'utente.
-
-Esempio: L'utente inserisce `8` e il programma stampa `21`, l'ottavo numero della sequenza.
-
-**Bonus**: Stampa un grafico della progressione, fino alla posizione inserita, stampando un `=` ogni 5 unità.
-
-<!-- int/uint? 47 -->
-
-## ex12
-
-L'utente inserisce un numero alla volta e il programma stampa la media di tutti i numeri inseriti fino a quel momento. Il programma si interrompe senza stampare la media quando il numero inserito è negativo.
-
-Esempio:
-
-```
-> 5
-media: 5.00
-> 15
-media: 10.00
-> 8
-media: 9.33
-> -42
-```
-
-**Bonus**: Se l'utente inserisce `-42`, il programma resetta la media e stampa `La media è stata resettata!` invece di stampare la media.
 
 ## bonus00
 
@@ -121,9 +95,19 @@ Esempio:
 
 N.B.: nella sequenza viene saltata la combinazione `10`.
 
+## bonus02
+
+L'utente inserisce un numero intero positivo e il programma stampa il valore della [serie di Fibonacci](https://www.google.com/search?q=fibonacci) nella posizione del numero inserito dall'utente.
+
+Esempio: L'utente inserisce `8` e il programma stampa `21`, l'ottavo numero della sequenza.
+
+<!-- **Bonus**: Stampa un grafico della progressione, fino alla posizione inserita, stampando un `=` ogni 5 unità. -->
+
+<!-- int/uint? 47 -->
+
 ## workgroup00
 
-L'utente inserisce un numero, seguito da un segno (`+`, `-`, `/`, `*`, `%`) e da un ultimo numero. Una volta inseriti i dati il programma stampa il risultato del calcolo.
+L'utente inserisce un numero intero, seguito da un segno (`+`, `-`, `/`, `*`, `%`) e da un ultimo numero intero. Una volta inseriti i dati il programma stampa il risultato del calcolo.
 
 Fai attenzione a controllare che le operazioni ricevute siano valide.
 
@@ -148,6 +132,24 @@ ERRORE
 10 y 7
 ERRORE
 ```
+
+## workgroup01
+
+L'utente inserisce un numero alla volta e il programma stampa la media di tutti i numeri inseriti fino a quel momento. Il programma si interrompe senza stampare la media quando il numero inserito è negativo.
+
+Esempio:
+
+```
+> 5
+media: 5.00
+> 15
+media: 10.00
+> 8
+media: 9.33
+> -21
+```
+
+**Bonus**: Se l'utente inserisce `-42`, il programma resetta la media e stampa `La media è stata resettata!` invece di stampare la media.
 
 ## fizzbuzz
 
