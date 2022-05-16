@@ -19,9 +19,11 @@ Qualche anno da testare:
 
 ## ex02
 
-L'utente inserisce una temperatura in Celsius. Se la temperatura inserita è minore dello _zero assoluto_ (-273.15 ºC), il programma segnala un errore. Atrimenti il programma converte la tempreratura in Fahrenheit ed in Kelvin e stampa i valori.
+L'utente inserisce un `float` (valore della temperatura) e un `char` (unità di misura). Il programma accetta valori in tre unità di misura (`C` per Celsius, `K` per Kelvin e `F` per Fahrenheit).
 
-Se la temperatura è minore di 15 ºC, il programma stampa `Fa freddo!`. Altrimenti se è compreso tra 15 e 25 ºC inclusi, il programma stampa `Si sta bene!`. Altrimenti stampa `Fa caldo!`.
+Se la temperatura inserita è minore dello [zero assoluto](https://www.google.com/search?q=zero+assoluto), il programma segnala un errore. Atrimenti il programma converte la tempreratura nelle altre due unità di misura e ne stampa i valori.
+
+Inoltre, se la temperatura è valida, e il valore è minore di 15 ºC, il programma stampa `Fa freddo!`. Altrimenti se è compreso tra 15 e 25 ºC inclusi, il programma stampa `Si sta bene!`. Altrimenti stampa `Fa caldo!`.
 
 Esempio:
 
@@ -39,7 +41,7 @@ Errore: temperatura non valida!
 
 ```
 Inserisci temperatura: -283.9 Z
-Errore: temperatura non valida!
+Errore: unità di misura non valida!
 ```
 
 ## ex03
