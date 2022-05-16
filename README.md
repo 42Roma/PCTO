@@ -2,36 +2,9 @@
 
 ## ex00
 
-L'utente inserisce un'età e il programma stampa se l'utente è maggiorenne o minorenne.
+L'utente inserisce un anno e il programma stampa se è l'anno del primo [allunaggio](https://www.google.com/search?q=allunaggio) oppure quanti anni prima o quanti anni dopo.
 
 ## ex01
-
-L'utente inserisce due numeri e il programma stampa se il primo è multiplo del secondo.
-
-## ex02
-
-L'utente inserisce una temperatura in Celsius. Se la temperatura inserita è minore dello _zero assoluto_ (-273.15 ºC), il programma segnala un errore. Atrimenti il programma converte la tempreratura in Fahrenheit ed in Kelvin e stampa i valori.
-
-Esempio:
-
-```
-Inserisci temperatura in Celsius: 22.5
-72.50 ºF
-295.65 K
-```
-
-```
-Inserisci temperatura in Celsius: -283.9
-Errore: temperatura non valida!
-```
-
-**Bonus**: Se la temperatura è minore di 15 ºC, il programma stampa `Fa freddo!`. Altrimenti se è compreso tra 15 e 25 ºC inclusi, il programma stampa `Si sta bene!`. Altrimenti stampa `Fa caldo!`.
-
-## ex03
-
-L'utente inserisce tre numeri e il programma stampa se sono in [progressione aritmetica](https://www.google.com/search?q=progressione+aritmetica).
-
-## ex04
 
 L'utente inserisce un anno ed il programma verifica se l'anno inserito è [bisestile](https://www.google.com/search?q=anno+bisestile).
 
@@ -44,27 +17,40 @@ Qualche anno da testare:
 | 2001 | non bisestile |
 | 1900 | non bisestile |
 
+## ex02
+
+L'utente inserisce una temperatura in Celsius. Se la temperatura inserita è minore dello _zero assoluto_ (-273.15 ºC), il programma segnala un errore. Atrimenti il programma converte la tempreratura in Fahrenheit ed in Kelvin e stampa i valori.
+
+Se la temperatura è minore di 15 ºC, il programma stampa `Fa freddo!`. Altrimenti se è compreso tra 15 e 25 ºC inclusi, il programma stampa `Si sta bene!`. Altrimenti stampa `Fa caldo!`.
+
+Esempio:
+
+```
+Inserisci temperatura: 22.5 C
+72.50 ºF
+295.65 K
+Si sta bene!
+```
+
+```
+Inserisci temperatura: -283.9 C
+Errore: temperatura non valida!
+```
+
+```
+Inserisci temperatura: -283.9 Z
+Errore: temperatura non valida!
+```
+
+## ex03
+
+L'utente inserisce tre numeri. Il programma controlla se possono essere le lunghezze dei lati di un triangolo (perché un triangolo possa essere tale la somma di ogni coppia lati deve essere maggiore dell'altro) e programma stampa se il triangolo è scaleno, isoscele o equilatero.
+
+## ex04
+
+Il programma stampa i divisori sia di 3 e che di 5 compresi tra `0` e `100` in ordine decrescente.
+
 ## ex05
-
-L'utente inserisce tre numeri e dice se possono essere le lunghezze dei lati di un triangolo (perché un triangolo possa essere tale la somma di ogni coppia lati deve essere maggiore dell'altro).
-
-## ex06
-
-L'utente inserisce tre lunghezze dei lati di un triangolo. Il programma stampa se il triangolo è scaleno, isoscele o equilatero.
-
-## ex07
-
-L'utente inserisce un anno e il programma stampa se è l'anno del primo [allunaggio](https://www.google.com/search?q=allunaggio) oppure quanti anni prima o quanti anni dopo.
-
-## ex08
-
-Il programma stampa tutti i numeri tra `20` e `50` compresi.
-
-## ex09
-
-Il programma stampa i numeri pari compresi tra `0` e `100` in ordine decrescente.
-
-## ex10
 
 L'utente inserisce due numeri interi (base e esponente). Se l'esponente è negativo, il programma stampa la potenza. Altrimenti stampa errore.
 
@@ -72,11 +58,11 @@ L'utente inserisce due numeri interi (base e esponente). Se l'esponente è negat
 
 <!-- int/uint 12 -->
 
-## bonus00
+## ex06
 
 L'utente inserisce un numero. Se è maggiore o uguale a 2, il programma stampa se il numero inserito è primo o non primo. Altrimenti il programma stampa un messaggio di scherno nei confronti dell'utente.
 
-## bonus01
+## ex07
 
 Il programma stampa a schermo tutte le possibili coppie di due cifre decimali (0-9), **senza ripetizioni**.
 
@@ -95,7 +81,7 @@ Esempio:
 
 N.B.: nella sequenza viene saltata la combinazione `10`.
 
-## bonus02
+## ex08
 
 L'utente inserisce un numero intero positivo e il programma stampa il valore della [serie di Fibonacci](https://www.google.com/search?q=fibonacci) nella posizione del numero inserito dall'utente.
 
@@ -105,7 +91,7 @@ Esempio: L'utente inserisce `8` e il programma stampa `21`, l'ottavo numero dell
 
 <!-- int/uint? 47 -->
 
-## workgroup00
+<!-- ## workgroup00
 
 L'utente inserisce un numero intero, seguito da un segno (`+`, `-`, `/`, `*`, `%`) e da un ultimo numero intero. Una volta inseriti i dati il programma stampa il risultato del calcolo.
 
@@ -215,4 +201,4 @@ La lettera e appare 3 volte
 Inserisci una frase: Che noia il coding
 Inserisci una lettera: C
 La lettera C appare 1 volte
-```
+``` -->
