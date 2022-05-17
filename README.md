@@ -50,7 +50,7 @@ L'utente inserisce tre numeri. Il programma controlla se possono essere le lungh
 
 ## ex04
 
-Il programma stampa i divisori sia di 3 e che di 5 compresi tra `0` e `100` in ordine decrescente.
+Il programma stampa i multipli sia di 3 e che di 5 compresi tra `0` e `100` in ordine decrescente.
 
 ## ex05
 
